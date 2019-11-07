@@ -3,8 +3,9 @@ import { PropTypes } from 'prop-types';
 
 const Home = ({ value, onChange, results }) => (
   <div>
+    <h1>Home</h1>
     <div>
-      <input name="name" value={value} onChange={onChange} />
+      <input name="name" value={value} onChange={onChange} autoComplete="off" />
     </div>
     <div>
       {results.map((result) => (<h4 key={result}>{result}</h4>))}
