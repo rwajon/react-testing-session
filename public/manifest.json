@@ -1,0 +1,8 @@
+{
+  "short_name": "RTS",
+  "name": "React Testing Session",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
